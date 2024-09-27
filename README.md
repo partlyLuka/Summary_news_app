@@ -34,4 +34,14 @@ Backend is additionally segmented into the following folders :
 ### Footnotes
 
 1. To run the translation script, you should create a folder called 'app/backend/rtv/translation/trans_models_small', and add a translation model in this file. We ussed the [NLLB](https://forum.opennmt.net/t/nllb-200-with-ctranslate2/5090) and SentencePieve model.
-2. The summarisation is achieved by the service [Groq](https://groq.com), in particular we used the [Llama 3 8B](https://huggingface.co/meta-llama/Meta-Llama-3-8B)
+2. The summarisation is achieved by the service [Groq](https://groq.com), in particular we used the [Llama 3 8B](https://huggingface.co/meta-llama/Meta-Llama-3-8B) model.
+
+## Frontend
+Fronted is coded in the Swift programming language, in particular the module SwiftUI, available for iOS app development. We used the **xcode** code editor, which allows real time previews of your code.
+
+The main view is located in the **optionview.swift** file. 
+
+The code is othervise segmented roughly into **Req_main.swift** and **summarisation.swift**, the first deals with just basic displays of raw news articles and the latter deals with visualisation of the summaries. Other files are files for helper functions. 
+
+
+
