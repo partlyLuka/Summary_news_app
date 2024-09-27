@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCA865D52C97670D008E9623 /* t2s.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA865D42C97670D008E9623 /* t2s.swift */; };
+		BCABCFA92C99E987005F597F /* optionview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCABCFA82C99E987005F597F /* optionview.swift */; };
+		BCB1DED22C957FF800EBB420 /* Req_main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB1DED12C957FF800EBB420 /* Req_main.swift */; };
+		BCB363A62C9D720D0049D797 /* what.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB363A52C9D720D0049D797 /* what.swift */; };
+		BCBDB0512C9C92DC001D7041 /* get_tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBDB0502C9C92DC001D7041 /* get_tests.swift */; };
+		BCC501692C996AC400170996 /* summaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC501682C996AC400170996 /* summaries.swift */; };
+		BCC6623C2C9AF9E300BAD22D /* url_maker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC6623B2C9AF9E300BAD22D /* url_maker.swift */; };
+		BCCC99922CA4AA2F00C31DD9 /* converters.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCC99912CA4AA2F00C31DD9 /* converters.swift */; };
+		BCD0F0502C92E96D0046BF57 /* RTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD0F04F2C92E96D0046BF57 /* RTVApp.swift */; };
+		BCD0F0542C92E96E0046BF57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD0F0532C92E96E0046BF57 /* Assets.xcassets */; };
+		BCD0F0582C92E96E0046BF57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD0F0572C92E96E0046BF57 /* Preview Assets.xcassets */; };
+		BCD0F0622C92E96E0046BF57 /* RTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD0F0612C92E96E0046BF57 /* RTVTests.swift */; };
+		BCD0F06C2C92E96E0046BF57 /* RTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD0F06B2C92E96E0046BF57 /* RTVUITests.swift */; };
+		BCD0F06E2C92E96E0046BF57 /* RTVUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD0F06D2C92E96E0046BF57 /* RTVUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCD0F05E2C92E96E0046BF57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCD0F0442C92E96D0046BF57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCD0F04B2C92E96D0046BF57;
+			remoteInfo = RTV;
+		};
+		BCD0F0682C92E96E0046BF57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCD0F0442C92E96D0046BF57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCD0F04B2C92E96D0046BF57;
+			remoteInfo = RTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCA865D42C97670D008E9623 /* t2s.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = t2s.swift; sourceTree = "<group>"; };
+		BCABCFA82C99E987005F597F /* optionview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = optionview.swift; sourceTree = "<group>"; };
+		BCB1DED12C957FF800EBB420 /* Req_main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Req_main.swift; sourceTree = "<group>"; };
+		BCB363A52C9D720D0049D797 /* what.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = what.swift; sourceTree = "<group>"; };
+		BCBDB0502C9C92DC001D7041 /* get_tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = get_tests.swift; sourceTree = "<group>"; };
+		BCC501682C996AC400170996 /* summaries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = summaries.swift; sourceTree = "<group>"; };
+		BCC6623B2C9AF9E300BAD22D /* url_maker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = url_maker.swift; sourceTree = "<group>"; };
+		BCCC99912CA4AA2F00C31DD9 /* converters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = converters.swift; sourceTree = "<group>"; };
+		BCD0F04C2C92E96D0046BF57 /* RTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD0F04F2C92E96D0046BF57 /* RTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTVApp.swift; sourceTree = "<group>"; };
+		BCD0F0532C92E96E0046BF57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCD0F0552C92E96E0046BF57 /* RTV.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RTV.entitlements; sourceTree = "<group>"; };
+		BCD0F0572C92E96E0046BF57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BCD0F05D2C92E96E0046BF57 /* RTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD0F0612C92E96E0046BF57 /* RTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTVTests.swift; sourceTree = "<group>"; };
+		BCD0F0672C92E96E0046BF57 /* RTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD0F06B2C92E96E0046BF57 /* RTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTVUITests.swift; sourceTree = "<group>"; };
+		BCD0F06D2C92E96E0046BF57 /* RTVUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTVUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCD0F0492C92E96D0046BF57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD0F05A2C92E96E0046BF57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD0F0642C92E96E0046BF57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCD0F0432C92E96D0046BF57 = {
+			isa = PBXGroup;
+			children = (
+				BCD0F04E2C92E96D0046BF57 /* RTV */,
+				BCD0F0602C92E96E0046BF57 /* RTVTests */,
+				BCD0F06A2C92E96E0046BF57 /* RTVUITests */,
+				BCD0F04D2C92E96D0046BF57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCD0F04D2C92E96D0046BF57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCD0F04C2C92E96D0046BF57 /* RTV.app */,
+				BCD0F05D2C92E96E0046BF57 /* RTVTests.xctest */,
+				BCD0F0672C92E96E0046BF57 /* RTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCD0F04E2C92E96D0046BF57 /* RTV */ = {
+			isa = PBXGroup;
+			children = (
+				BCD0F04F2C92E96D0046BF57 /* RTVApp.swift */,
+				BCB1DED12C957FF800EBB420 /* Req_main.swift */,
+				BCC6623B2C9AF9E300BAD22D /* url_maker.swift */,
+				BCCC99912CA4AA2F00C31DD9 /* converters.swift */,
+				BCB363A52C9D720D0049D797 /* what.swift */,
+				BCBDB0502C9C92DC001D7041 /* get_tests.swift */,
+				BCD0F0532C92E96E0046BF57 /* Assets.xcassets */,
+				BCC501682C996AC400170996 /* summaries.swift */,
+				BCABCFA82C99E987005F597F /* optionview.swift */,
+				BCA865D42C97670D008E9623 /* t2s.swift */,
+				BCD0F0552C92E96E0046BF57 /* RTV.entitlements */,
+				BCD0F0562C92E96E0046BF57 /* Preview Content */,
+			);
+			path = RTV;
+			sourceTree = "<group>";
+		};
+		BCD0F0562C92E96E0046BF57 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BCD0F0572C92E96E0046BF57 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BCD0F0602C92E96E0046BF57 /* RTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCD0F0612C92E96E0046BF57 /* RTVTests.swift */,
+			);
+			path = RTVTests;
+			sourceTree = "<group>";
+		};
+		BCD0F06A2C92E96E0046BF57 /* RTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCD0F06B2C92E96E0046BF57 /* RTVUITests.swift */,
+				BCD0F06D2C92E96E0046BF57 /* RTVUITestsLaunchTests.swift */,
+			);
+			path = RTVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCD0F04B2C92E96D0046BF57 /* RTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD0F0712C92E96E0046BF57 /* Build configuration list for PBXNativeTarget "RTV" */;
+			buildPhases = (
+				BCD0F0482C92E96D0046BF57 /* Sources */,
+				BCD0F0492C92E96D0046BF57 /* Frameworks */,
+				BCD0F04A2C92E96D0046BF57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTV;
+			productName = RTV;
+			productReference = BCD0F04C2C92E96D0046BF57 /* RTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCD0F05C2C92E96E0046BF57 /* RTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD0F0742C92E96E0046BF57 /* Build configuration list for PBXNativeTarget "RTVTests" */;
+			buildPhases = (
+				BCD0F0592C92E96E0046BF57 /* Sources */,
+				BCD0F05A2C92E96E0046BF57 /* Frameworks */,
+				BCD0F05B2C92E96E0046BF57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCD0F05F2C92E96E0046BF57 /* PBXTargetDependency */,
+			);
+			name = RTVTests;
+			productName = RTVTests;
+			productReference = BCD0F05D2C92E96E0046BF57 /* RTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCD0F0662C92E96E0046BF57 /* RTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD0F0772C92E96E0046BF57 /* Build configuration list for PBXNativeTarget "RTVUITests" */;
+			buildPhases = (
+				BCD0F0632C92E96E0046BF57 /* Sources */,
+				BCD0F0642C92E96E0046BF57 /* Frameworks */,
+				BCD0F0652C92E96E0046BF57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCD0F0692C92E96E0046BF57 /* PBXTargetDependency */,
+			);
+			name = RTVUITests;
+			productName = RTVUITests;
+			productReference = BCD0F0672C92E96E0046BF57 /* RTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCD0F0442C92E96D0046BF57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					BCD0F04B2C92E96D0046BF57 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					BCD0F05C2C92E96E0046BF57 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BCD0F04B2C92E96D0046BF57;
+					};
+					BCD0F0662C92E96E0046BF57 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BCD0F04B2C92E96D0046BF57;
+					};
+				};
+			};
+			buildConfigurationList = BCD0F0472C92E96D0046BF57 /* Build configuration list for PBXProject "RTV" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCD0F0432C92E96D0046BF57;
+			productRefGroup = BCD0F04D2C92E96D0046BF57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCD0F04B2C92E96D0046BF57 /* RTV */,
+				BCD0F05C2C92E96E0046BF57 /* RTVTests */,
+				BCD0F0662C92E96E0046BF57 /* RTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCD0F04A2C92E96D0046BF57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD0F0582C92E96E0046BF57 /* Preview Assets.xcassets in Resources */,
+				BCD0F0542C92E96E0046BF57 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD0F05B2C92E96E0046BF57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD0F0652C92E96E0046BF57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCD0F0482C92E96D0046BF57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC501692C996AC400170996 /* summaries.swift in Sources */,
+				BCB363A62C9D720D0049D797 /* what.swift in Sources */,
+				BCD0F0502C92E96D0046BF57 /* RTVApp.swift in Sources */,
+				BCC6623C2C9AF9E300BAD22D /* url_maker.swift in Sources */,
+				BCABCFA92C99E987005F597F /* optionview.swift in Sources */,
+				BCA865D52C97670D008E9623 /* t2s.swift in Sources */,
+				BCCC99922CA4AA2F00C31DD9 /* converters.swift in Sources */,
+				BCB1DED22C957FF800EBB420 /* Req_main.swift in Sources */,
+				BCBDB0512C9C92DC001D7041 /* get_tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD0F0592C92E96E0046BF57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD0F0622C92E96E0046BF57 /* RTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD0F0632C92E96E0046BF57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD0F06C2C92E96E0046BF57 /* RTVUITests.swift in Sources */,
+				BCD0F06E2C92E96E0046BF57 /* RTVUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCD0F05F2C92E96E0046BF57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCD0F04B2C92E96D0046BF57 /* RTV */;
+			targetProxy = BCD0F05E2C92E96E0046BF57 /* PBXContainerItemProxy */;
+		};
+		BCD0F0692C92E96E0046BF57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCD0F04B2C92E96D0046BF57 /* RTV */;
+			targetProxy = BCD0F0682C92E96E0046BF57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BCD0F06F2C92E96E0046BF57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCD0F0702C92E96E0046BF57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BCD0F0722C92E96E0046BF57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RTV/RTV.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RTV/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MyOrg.RTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCD0F0732C92E96E0046BF57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RTV/RTV.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RTV/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MyOrg.RTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BCD0F0752C92E96E0046BF57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MyOrg.RTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RTV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RTV";
+			};
+			name = Debug;
+		};
+		BCD0F0762C92E96E0046BF57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MyOrg.RTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RTV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RTV";
+			};
+			name = Release;
+		};
+		BCD0F0782C92E96E0046BF57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49GHT7W2FN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MyOrg.RTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RTV;
+			};
+			name = Debug;
+		};
+		BCD0F0792C92E96E0046BF57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49GHT7W2FN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MyOrg.RTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCD0F0472C92E96D0046BF57 /* Build configuration list for PBXProject "RTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD0F06F2C92E96E0046BF57 /* Debug */,
+				BCD0F0702C92E96E0046BF57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD0F0712C92E96E0046BF57 /* Build configuration list for PBXNativeTarget "RTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD0F0722C92E96E0046BF57 /* Debug */,
+				BCD0F0732C92E96E0046BF57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD0F0742C92E96E0046BF57 /* Build configuration list for PBXNativeTarget "RTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD0F0752C92E96E0046BF57 /* Debug */,
+				BCD0F0762C92E96E0046BF57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD0F0772C92E96E0046BF57 /* Build configuration list for PBXNativeTarget "RTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD0F0782C92E96E0046BF57 /* Debug */,
+				BCD0F0792C92E96E0046BF57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCD0F0442C92E96D0046BF57 /* Project object */;
+}
