@@ -43,5 +43,11 @@ The main view is located in the **optionview.swift** file.
 
 The code is othervise segmented roughly into **Req_main.swift** and **summarisation.swift**, the first deals with just basic displays of raw news articles and the latter deals with visualisation of the summaries. Other files are files for helper functions. 
 
+## Data
+There are two files inside this directory, one is *rtv.json* which is the above mentoined database and the other is **database.ipynb** which is just an exploratory notebook for the database. 
+
+The data is structued in the following way: 
+
+
 
 
