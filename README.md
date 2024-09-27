@@ -33,4 +33,5 @@ Backend is additionally segmented into the following folders :
 
 ### Footnotes
 
-1. To run the translation one should add translation model files in the folder ''
+1. To run the translation script, you should create a folder called 'app/backend/rtv/translation/trans_models_small', and add a translation model in this file. We ussed the [NLLB](https://forum.opennmt.net/t/nllb-200-with-ctranslate2/5090) and SentencePieve model.
+2. The summarisation is achieved by the service [Groq](https://groq.com), in particular we used the [Llama 3 8B](https://huggingface.co/meta-llama/Meta-Llama-3-8B)
