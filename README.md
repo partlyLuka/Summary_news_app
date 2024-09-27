@@ -48,6 +48,39 @@ There are two files inside this directory, one is *rtv.json* which is the above 
 
 The data is structued in the following way: 
 
+```json
+{
+  "slovenija": {
+    "2024-09-15": [
+      {
+        "author": "A. K. K.",
+        "time": "8.56",
+        "content": "...",
+        "title": "Veter podiral drevesa",
+        "english_content": "...",
+        "english_title": "The wind knocked down trees",
+        "uuid": "05ce0ae1-71a9-452e-86d5-555066ac6559",
+        "date": "2024-09-15"
+      }
+    ]
+  },
+  "sport": {
+    "2024-09-15": [
+      {
+        "author": "M. L.",
+        "time": "13.00",
+        "content": "...",
+        "title": "Dirka za VN Azerbajdžana, Baku",
+        "english_content": "...",
+        "english_title": "The race for the UN of Azerbaijan, Baku",
+        "uuid": "980f86ce-f15b-4970-a6cb-cb7944001e2e",
+        "date": "2024-09-15"
+      }
+    ]
+  }
+}
+```
 
+This is ofcourse a drastically distilled version of the database. 
 
 
